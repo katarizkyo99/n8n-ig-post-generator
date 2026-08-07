@@ -1,11 +1,11 @@
 # Weekly IG Post Generator (n8n + Gemini API)
 
-An automated n8n workflow that fetches the latest Indonesian property news via RSS, processes the context using Google Gemini 1.5 Flash, and generates Instagram captions tailored for Gen Z first-time homebuyers on Rumah123.
+An automated n8n workflow that fetches the latest Indonesian property news via RSS, processes the context using Google gemini-3.6-flash, and generates Instagram captions tailored for Gen Z first-time homebuyers on Rumah123.
 
 ## System Architecture
 - **Trigger**: Manual Execution (`n8n-nodes-base.manualTrigger`)
 - **Data Source**: Google News RSS (`properti indonesia terbaru`)
-- **LLM Engine**: Google Gemini 1.5 Flash
+- **LLM Engine**: models/gemini-3.6-flash
 - **Output**: Formatted Instagram Post Copy (Hook, Tips, Call-to-Action, Hashtags)
 
 ## Key Prompts
